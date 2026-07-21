@@ -30,8 +30,15 @@ It is recommended to use a virtual environment.
 pip install -r requirements.txt
 ```
 (Note: Ensure your requirements.txt includes streamlit, pandas, numpy, xgboost, and scikit-learn)
-
-3. Launch the Dashboard
+3. Preprocess Data
+```
+python src\data_pipeline.py
+```
+4. Train Model
+```
+python src\train_model.py
+```
+5. Launch the Dashboard
 ```
 streamlit run app.py
 ```

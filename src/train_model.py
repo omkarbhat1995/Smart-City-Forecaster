@@ -12,7 +12,7 @@ def train_and_evaluate():
     os.makedirs('../results', exist_ok=True)
     
     # Load processed data
-    df = pd.read_csv('../data/processed/synthetic_traffic_processed.csv')
+    df = pd.read_csv('../data/processed/UCI_Traffic_processed.csv')
     
     X = df.drop('traffic_volume', axis=1)
     y = df['traffic_volume']

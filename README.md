@@ -2,8 +2,6 @@
 
 An end-to-end Applied Machine Learning dashboard designed to predict urban traffic volume. This project demonstrates the ability to train, optimize, and serve machine learning models locally using lightweight infrastructure.
 
-## 🚀 Overview
-
 ## 📊 Dataset & Features
 Instead of relying on static synthetic data, this project ingests real-world traffic observations from the UCI Metro Interstate Traffic Volume dataset (via ucimlrepo).
 

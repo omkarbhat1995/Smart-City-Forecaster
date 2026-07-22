@@ -1,7 +1,7 @@
 # 🏙️ Smart City Traffic Forecaster
 
 An end-to-end Applied Machine Learning dashboard designed to predict urban traffic volume. This project demonstrates the ability to train, optimize, and serve machine learning models locally using lightweight infrastructure.
-
+---
 ## 📊 Dataset & Features
 Instead of relying on static synthetic data, this project ingests real-world traffic observations from the UCI Metro Interstate Traffic Volume dataset (via ucimlrepo).
 
@@ -21,7 +21,7 @@ special_event: Binary indicator mapped from federal and local holidays.
 * **Predictive Analytics:** Implements `XGBoost` for fast, highly accurate tabular forecasting.
 * **Interactive UI:** Fully functional `Streamlit` dashboard for real-time scenario testing.
 * **Local Execution:** Optimized to run entirely locally without reliance on cloud compute.
-
+---
 ## 🛠️ Technology Stack
 🛠️ Technology Stack
 * **Language**: Python 3.9+
@@ -33,7 +33,7 @@ special_event: Binary indicator mapped from federal and local holidays.
 * **Frontend UI**: Streamlit
 
 * **Version Control & Best Practices**: Modular structure, path-anchored scripts (os.path), and robust .gitignore rules.
-
+---
 ## ⚙️ Installation & Usage
 
 1. **Clone the repository:**
@@ -71,3 +71,4 @@ Boots up the interactive local web server.
 streamlit run app.py
 ```
 The dashboard will automatically open in your default web browser at http://localhost:8501.
+---

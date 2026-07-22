@@ -6,6 +6,7 @@ env/
 # Data Files (Keep large datasets out of GitHub)
 *.csv
 *.gz
+*.pdf
 
 # Model & Evaluation Artifacts
 models/*.json
